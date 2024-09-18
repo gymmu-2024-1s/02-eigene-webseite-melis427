@@ -35,6 +35,18 @@ body {
     font-size: 24pt;
 }
 .bg-red {
-    background-color: rgb(147, 115, 177);
+    background-color: rgb(158, 129, 185);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 5px dotted yellow;
+    margin: 10px;
+    text-align: center;
 }
-.my title
+.bg-blue {
+    background-color: rgb(158, 129, 185);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 5px dotted yellow;
+    margin: 10px;
+    text-align: center;
+}
