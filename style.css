@@ -52,7 +52,7 @@ body {
 }
 .bg-green {
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 4rem;
     border: 5px dotted rgb(109, 78, 160);
     margin: 10px;
     text-align: center;
@@ -66,6 +66,13 @@ body {
     text-align: center;
     border: 5px dotted rgb(109, 78, 160);
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 4rem;
     margin: 10px;
+}
+.bg-black {
+    text-align: center;
+    border: 5px dotted lightcoral;
+    border-radius: 4rem;
+    margin: 10px;
+    padding: 2rem;
 }
