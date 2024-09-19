@@ -31,7 +31,7 @@ body {
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
 }
 
-.large-text {
+.small-text {
     font-size: 24pt;
 }
 .bg-red {
@@ -56,6 +56,7 @@ body {
     border: 5px dotted rgb(109, 78, 160);
     margin: 10px;
     text-align: center;
+    background-color: white;
 }
 .bg-black {
     text-align: center;
