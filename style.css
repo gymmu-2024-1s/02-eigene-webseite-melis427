@@ -63,3 +63,10 @@ body {
 .bg-orange {
     text-align: center;
 }
+.bg-white {
+    text-align: center;
+    border: 5px dotted rgb(109, 78, 160);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 10px;
+}
