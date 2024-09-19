@@ -50,3 +50,16 @@ body {
     margin: 10px;
     text-align: center;
 }
+.bg-green {
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 5px dotted rgb(109, 78, 160);
+    margin: 10px;
+    text-align: center;
+}
+.bg-black {
+    text-align: center;
+}
+.bg-orange {
+    text-align: center;
+}
