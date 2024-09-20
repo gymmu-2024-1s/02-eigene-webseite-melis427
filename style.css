@@ -64,7 +64,7 @@ body {
 }
 .bg-white {
     text-align: center;
-    border: 5px dotted rgb(109, 78, 160);
+    border: 5px dotted rgb(0, 0, 0);
     padding: 2rem;
     border-radius: 4rem;
     margin: 10px;
@@ -83,8 +83,13 @@ body {
 
 .image img {
     width: 10%;
+    border-radius: 2rem;
 }
 
 .bg-purple {
     text-align: left;
+    border: 5px;
+}
+.title {
+    text-align: center;
 }
