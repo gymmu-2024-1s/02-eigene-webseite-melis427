@@ -71,7 +71,7 @@ body {
 }
 .bg-black {
     text-align: center;
-    border: 5px dotted lightcoral;
+    border: 5px dotted rgb(0, 0, 0);
     border-radius: 4rem;
     margin: 10px;
     padding: 2rem;
