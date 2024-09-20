@@ -34,30 +34,6 @@ body {
 .small-text {
     font-size: 24pt;
 }
-.bg-red {
-    background-color: rgb(158, 129, 185);
-    padding: 2rem;
-    border-radius: 1rem;
-    border: 5px dotted yellow;
-    margin: 10px;
-    text-align: center;
-}
-.bg-blue {
-    background-color: rgb(158, 129, 185);
-    padding: 2rem;
-    border-radius: 1rem;
-    border: 5px dotted yellow;
-    margin: 10px;
-    text-align: center;
-}
-.bg-green {
-    padding: 2rem;
-    border-radius: 4rem;
-    border: 5px dotted rgb(109, 78, 160);
-    margin: 10px;
-    text-align: center;
-    background-color: white;
-}
 
 .bg-orange {
     text-align: center;
@@ -92,4 +68,13 @@ body {
 }
 .title {
     text-align: center;
+}
+
+.bg-blue {
+    text-align: center;
+    margin: 10px;
+    border: 5px dotted rgb(180, 40, 40);
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: rgb(210, 206, 206);
 }
