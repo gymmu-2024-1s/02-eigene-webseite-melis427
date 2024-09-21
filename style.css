@@ -82,3 +82,13 @@ body {
 .Stern {
     text-align: center;
 }
+
+.Handball img {
+    align-items: center;
+    padding: 2rem;
+    width: 30%;
+}
+
+.Handball {
+    text-align: center;
+}
