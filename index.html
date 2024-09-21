@@ -82,14 +82,47 @@
                 </div>
             </section>
         </main>
+        <section class="Stern">
         <svg width="300" height="200" viewBox="0 30 80 40">
             <desc>Stern mit Füllung</desc>
-            <path id="star" d="m13,70 l15,-45 l15,45 l-38,-28 h47" fill="rgb(180, 40, 40)" stroke="rgb(180, 40, 40)" />
-          </svg>
-          
-          <svg width="400" height="200" viewBox="0 0 200 100" fill="rgb(180, 40, 40)">
+            <path id="star-motion" d="m13,70 l15,-45 l15,45 l-38,-28 h47" fill="rgb(180, 40, 40)"
+            stroke="rgb(180, 40, 40)" />
+
+            <animateTransform 
+            attributeName="transform" 
+            type="translate" 
+            from="50 0" 
+            to="-50 0" 
+            dur="3s" 
+            repeatCount="indefinite" 
+            keyTimes="0; 0.5; 1" 
+            values="50 0; -50 0; 50 0" 
+            calcMode="linear" />
+      
+        <!-- Animation für Skalierung -->
+        <animateTransform 
+            attributeName="transform" 
+            type="scale" 
+            additive="sum"  
+            from="1 1"  
+            to="1.5 1.5"  
+            dur="3s" 
+            repeatCount="indefinite" 
+            keyTimes="0; 0.5; 1" 
+            values="1.5 1.5; 1 1; 1.5 1.5"  
+            calcMode="linear" />
+            [svg code von Bewegung von Chatgpt]
+      </svg>
+      </svg>
+    </section>
+
+        </svg>
+        <svg width="400" height="200" viewBox="0 0 200 100" fill="rgb(180, 40, 40)">
             [svg code von Internet]
-          </svg> 
+          </svg>
+          <svg width="400" height="200" viewBox="0 0 200 100" fill="rgb(180, 40, 40)">
+
+          </svg>
         
         
                         
