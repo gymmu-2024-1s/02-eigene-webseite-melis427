@@ -86,9 +86,9 @@ body {
 .Handball img {
     align-items: center;
     padding: 2rem;
-    width: 30%;
+    width: 40%;
 }
 
 .Handball {
-    text-align: right;
+    text-align: center;
 }
