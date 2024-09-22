@@ -12,11 +12,15 @@
     </head>
 
     <body>
-        <header>
+        <header class="bg-blue">
             <!-- Im header wird der Kopf der Webseite angegeben.
             Dies ist aber nur ein Struktur-Element. Damit der Header auch immer
             ganz oben angezeigt wird, braucht es noch das richtige CSS dafür. -->
-            <h1>Webseite von ...</h1>
+
+            <h1>Webseite von Melis</h1>
+            
+             
+            
         </header>
 
         <nav>
@@ -29,6 +33,7 @@
                 <li>
                     <a href="./pages/hobbies.html">Hobbies</a>
                 </li>
+                <li><a href="./pages/Schule.html">Schule</a></li>
             </ul>
         </nav>
 
@@ -38,49 +43,93 @@
             unterteilt. -->
 
             <section>
+                <header>
                 <!-- Dieses Element wird verwendet um einen Abschnitt auf der
                 Webseite vom Rest abzutrennen. Für Abschnitte in einem Text
                 verwendet man das p-Element. -->
-                <h2>Erster Abschnitt</h2>
+                <header class="bg-blue">
+                    <h2>Willkommen auf meiner Website 🤗</h2>
+                </header>
                 <p>
                     <!-- Mit dem p-Element Teilt man einen Text in Paragraphen
                     ein. Das p-Element hat meistens nur noch Text, Links oder
                     Bilder drin, sonst keine weiteren Elemente. -->
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
-                    itaque eaque vel necessitatibus amet consectetur corrupti
-                    repudiandae ipsam aliquam sint.
                 </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    natus magni non cumque voluptatum similique ullam
-                    temporibus. Magni sequi sunt temporibus ab a nobis quo non,
-                    molestias sapiente dolorum repellendus obcaecati odit, dolor
-                    quae illo ratione, veniam autem id praesentium. Consectetur,
-                    totam asperiores expedita culpa doloribus nesciunt error
-                    architecto dolorum!
-                </p>
-            </section>
 
-            <section>
-                <h2>Abschnitt mit Text und Bild</h2>
-                <div class="text-and-img">
-                    <!-- Hier wird eine Klasse verwendet, die in CSS angibt wie das
-                    Element gestaltet werden soll. Es werden hier 2 Kinder-Elemente
-                    verwendet, damit wir den Effekt von einem Text neben einem Bild
-                    einfach hinbekommen können. -->
-                    <div class="text">
-                        Hier ist eine Beschreibung von dem Bild, oder einfach
-                        Text der dazu passen könnte.
-                    </div>
-                    <div class="image">
-                        <img src="/img/mountains.png" alt="" />
-                    </div>
-                </div>
-            </section>
-        </main>
+                <section>
+                   
+                    <header class="bg-orange">
+                        <p>
+                            <h3 style="font-size: 25px;">
+                                <span style="color: rgb(0, 0, 0)">
+                            Hallo mein Name ist Melis Yetis. Ich bin 15 Jahre
+                            alt und komme aus der Türkei. Ich habe diese Webseite über mich erstellt.
+                        </h3>
+                        </p>
+                    </header>
+                </section>
+
+                <section class="Stern">
+                    <svg width="130" height="300" viewBox="0 25 80 40">
+                        <desc>Stern mit Füllung</desc>
+                        <path id="star-motion" d="m13,70 l15,-45 l15,45 l-38,-28 h47" fill="rgb(180, 40, 40)"
+                        stroke="rgb(180, 40, 40)" />
+            
+                        <animateTransform 
+                        attributeName="transform" 
+                        type="translate" 
+                        from="100 0" 
+                        to="-50 0" 
+                        dur="3s" 
+                        repeatCount="indefinite" 
+                        keyTimes="0; 0.5; 1" 
+                        values="50 0; -50 0; 50 0" 
+                        calcMode="linear" />
+                  
+                    <!-- Animation für Skalierung -->
+                    <animateTransform 
+                        attributeName="transform" 
+                        type="scale" 
+                        additive="sum"  
+                        from="1 1"  
+                        to="1.5 1.5"  
+                        dur="3s" 
+                        repeatCount="indefinite" 
+                        keyTimes="0; 0.5; 1" 
+                        values="1.5 1.5; 1 1; 1.5 1.5"  
+                        calcMode="linear" />
+                        [svg code von Bewegung von Chatgpt]
+                  </svg>
+                  
+
+                <section>
+                   
+                    <div class="Handball">
+                        <img src="https://thumbs.dreamstime.com/b/handball-ball-ground-sport-field-indoors-square-image-black-white-193762366.jpg" alt="" />
+                        
+                
+                      </div>
+           
+      </svg>
+      
+    </section>
+
+        </svg>
+        <svg width="400" height="200" viewBox="0 0 200 100" fill="rgb(180, 40, 40)">
+            [svg code von Internet]
+          </svg>
+          <svg width="400" height="200" viewBox="0 0 200 100" fill="rgb(180, 40, 40)">
+
+          </svg>
+
+      
+        
+                        
+        </a>
 
         <footer>
             <!-- Hier kommt die Fusszeile der Webseite -->
         </footer>
     </body>
 </html>
+

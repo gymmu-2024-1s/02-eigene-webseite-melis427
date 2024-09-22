@@ -30,3 +30,65 @@ body {
     border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
 }
+
+.small-text {
+    font-size: 24pt;
+}
+
+.bg-orange {
+    text-align: center;
+}
+.bg-white {
+    text-align: center;
+    border: 5px dotted rgb(0, 0, 0);
+    padding: 2rem;
+    border-radius: 4rem;
+    margin: 10px;
+}
+.bg-black {
+    text-align: center;
+    border: 5px dotted rgb(0, 0, 0);
+    border-radius: 4rem;
+    margin: 10px;
+    padding: 2rem;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    width: 10%;
+    border-radius: 2rem;
+}
+
+.bg-purple {
+    text-align: left;
+    border: 5px;
+}
+.title {
+    text-align: center;
+}
+
+.bg-blue {
+    text-align: center;
+    margin: 10px;
+    border: 5px dotted rgb(180, 40, 40);
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: rgb(210, 206, 206);
+}
+
+.Stern {
+    text-align: center;
+}
+
+.Handball img {
+    align-items: center;
+    padding: 2rem;
+    width: 40%;
+}
+
+.Handball {
+    text-align: center;
+}
